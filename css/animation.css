@@ -1,0 +1,29 @@
+.animate_navbar_show {
+    animation-name: show-navbar;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+}
+
+.animate_navbar_hidden {
+    animation-name: hidden-navbar;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show-navbar {
+    from {
+        @apply -top-full;
+    }
+    to {
+        @apply top-0 ;
+    }
+}
+
+@keyframes hidden-navbar {
+    from {
+        @apply top-0;
+    }
+    to {
+        @apply -top-full;
+    }
+}
