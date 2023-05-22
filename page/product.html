@@ -38,7 +38,7 @@
             </div>
             <button onclick="showNavbar()" class="md:hidden"><span class="material-symbols-outlined">menu</span></button>
         </section>
-        <nav class="container max-w-5xl 2xl:max-w-6xl md:flex justify-between items-center bg-gray-800 text-white fixed md:relative left-0 -top-full md:top-5" id="navbar">
+        <nav class="container max-w-5xl z-50 2xl:max-w-6xl md:flex justify-between items-center bg-gray-800 text-white fixed md:relative left-0 -top-full md:top-5" id="navbar">
             <button onclick="hideNavbar()" class="block md:hidden my-3 mr-5 ml-auto"><span class="material-symbols-outlined">close</span></button>
             <ul class="md:flex">
                 <li><a href="./index.html" class="block py-3 px-6 hover:text-red-700">HOME</a></li>
@@ -61,10 +61,125 @@
     <!-- Promo Chart End -->
 
     <!-- Main Content Product Page -->
-    <main>
-        
+    <main class="container max-w-5xl 2xl:max-w-6xl flex flex-wrap justify-evenly items-center my-20 font-ubuntu text-gray-800">
+        <button data-product-name="Sheets" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/Sheets.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Sheets</h6>
+            </div>
+        </button>
+        <button data-product-name="Windows" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/Window.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Windows</h6>
+            </div>
+        </button>
+        <button data-product-name="Pillows" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/Pillows.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Pillows</h6>
+            </div>
+        </button>
+        <button data-product-name="Blankets" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/Blanket.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Blankets</h6>
+            </div>
+        </button>
+        <button data-product-name="Throws" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/Throws.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Throws</h6>
+            </div>
+        </button>
+        <button data-product-name="Bath" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/BathItem.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Bath Items</h6>
+            </div>
+        </button>
+        <button data-product-name="Kitchen" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/KitchenAccesories.jpg" class="block min-w-full rounded-t-md">
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Kitchen Accessories</h6>
+            </div>
+        </button>
+        <button data-product-name="FashionBedding" data-product="btn" class="group w-[22rem] border-2 border-gray-100 shadow-xl rounded-md m-4">
+            <div class="absolute w-[21.8rem] h-52 bg-[rgba(18,18,18,0.6)] hidden group-hover:flex items-center justify-center">
+                <span class="material-symbols-outlined text-4xl text-white">visibility</span>
+            </div>
+            <div class="w-full h-52 overflow-hidden">
+                <img src="../img/FashionBedding.jpg" class="block min-w-full rounded-t-md">
+                <div class="w-full h-full bg-black hidden"></div>
+            </div>
+            <div class="px-4 py-5">
+                <h6 class="font-bold text-2xl text-center">Fashion Bedding</h6>
+            </div>
+        </button>
     </main>
     <!-- Main Content Product Page End -->
+
+    <!-- Detail Modal Start -->
+    <section id="product-modal" class="w-screen h-screen hidden items-center justify-center bg-[rgba(17,17,17,0.9)] fixed left-0 top-0 z-50 font-ubuntu">
+        <div class="w-full sm:w-[90%] h-[90vh] bg-white">
+            <nav class="py-1 px-4 bg-gray-500 flex items-center justify-between text-white">
+                <h6 class="font-semibold" id="modal-title">Polows</h6>
+                <button onclick="closeModal()"><span class="material-symbols-outlined">close</span></button>
+            </nav>
+            <main class="h-4/5 flex items-center justify-center mx-auto w-4/5">
+                <div class="mt-20 xl:w-4/5 sm:mt-12 py-8 px-4 flex flex-col xl:flex-row items-center justify-around">
+                    <div class="w-1/2 p-4 min-w-max flex items-center justify-center xl:border-r-2">
+                        <img src="" id="modal-img" class="h-[40vh] xl:h-[60vh]" alt="">
+                    </div> 
+                    <div class="w-1/2 min-w-max xl:pl-24 px-2 mt-16 xl:mt-8 flex flex-col justify-center">
+                        <h5 class="text-4xl 2xl:text-6xl font-bold" id="modal-heading">Polow</h5>
+                        <ul class="mt-6 text-gray-600">
+                            <li class="text-lg 2xl:text-xl font-semibold" id="modal-line-1"></li>
+                            <li class="text-lg 2xl:text-xl font-semibold" id="modal-line-2"></li>
+                            <li class="text-lg 2xl:text-xl font-semibold" id="modal-line-3"></li>
+                            <li class="text-lg 2xl:text-xl font-semibold" id="modal-line-4"></li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <!-- Detail Modal End -->
 
     <!-- Footer Start -->
     <footer class="mt-16 font-ubuntu text-white">
@@ -117,5 +232,7 @@
 
     <!-- Index JavaScript File -->
     <script src="../js/index.js"></script>
+
+    <script src="../js/products.js"></script>
 </body>
 </html>
