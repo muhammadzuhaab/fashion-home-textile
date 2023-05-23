@@ -28,7 +28,7 @@ const changeImg = async () => {
                     IMAGE_SLIDER.setAttribute('src', SLIDER_IMAGES[0]);
                     resolve();
                 }
-            }, 4000);
+            }, 7000);
         }
     }).then(async () => {
         await changeImg();
