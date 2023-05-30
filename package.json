@@ -6,6 +6,7 @@
     "vite": "^4.3.8"
   },
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   }
 }
